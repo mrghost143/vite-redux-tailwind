@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss'; // Import Tailwind CSS here
+import "@shared/scss/style.scss"; // Import Tailwind CSS here
 import { App } from '@app';
 import { Provider } from 'react-redux';
 import store from '@config/store';

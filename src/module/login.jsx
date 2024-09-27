@@ -3,7 +3,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { login, logout } from "@shared/reducer/authentication";
 
-const Login = () => {
+ const Login = () => {
   const dispatch = useDispatch();
   const isAuthenticated = useSelector((state) => state?.auth?.isAuthenticated);
 
